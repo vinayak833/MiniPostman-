@@ -1,0 +1,41 @@
+body{
+    font-family:Arial,sans-serif;
+    background:#f4f4f4;
+    padding:20px;
+}
+
+.container{
+    max-width:900px;
+    margin:auto;
+}
+
+input,
+select,
+textarea,
+button{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+}
+
+textarea{
+    height:150px;
+}
+
+button{
+    cursor:pointer;
+}
+
+#response{
+    background:#222;
+    color:#fff;
+    padding:15px;
+    overflow:auto;
+}
+
+.history-item{
+    background:white;
+    padding:10px;
+    margin:5px 0;
+    cursor:pointer;
+}
