@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mini Postman</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+<h1>Mini Postman</h1>
+
+<select id="method">
+    <option>GET</option>
+    <option>POST</option>
+    <option>PUT</option>
+    <option>DELETE</option>
+</select>
+
+<input
+type="text"
+id="url"
+placeholder="Enter API URL"
+>
+
+<textarea
+id="body"
+placeholder="JSON Request Body"
+></textarea>
+
+<button id="sendBtn">
+Send Request
+</button>
+
+<h2>Response</h2>
+
+<pre id="response"></pre>
+
+<h2>History</h2>
+
+<div id="history"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
